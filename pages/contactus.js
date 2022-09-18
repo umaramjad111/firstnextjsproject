@@ -1,7 +1,7 @@
 import Head from "next/head";
 import styled from "styled-components";
 
-export default function Home() {
+export default function Contact() {
   const Hero = styled.div`
     height: 90vh;
     display: flex;
@@ -27,7 +27,7 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <Hero>
-        <Heading>NEXT</Heading>
+        <Heading>CONTACT</Heading>
       </Hero>
     </>
   );
